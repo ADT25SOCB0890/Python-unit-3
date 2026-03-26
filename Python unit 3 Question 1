@@ -1,0 +1,18 @@
+shapes.py
+
+def circle(r):
+    return 3.14 * r * r
+
+def rectangle(l, w):
+    return l * w
+
+def triangle(b, h):
+    return 0.5 * b * h
+
+main file
+
+import shapes
+
+print(shapes.circle(5))
+print(shapes.rectangle(4, 3))
+print(shapes.triangle(6, 2))
